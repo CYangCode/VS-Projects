@@ -6,6 +6,9 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	TextDefaultValue text(5);
+	text.printDefaultValue();
+	system("pause");
 	return 0;
 }
 
